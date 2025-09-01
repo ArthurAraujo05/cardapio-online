@@ -7,9 +7,9 @@ import { MessageCircle, Phone, Clock, MapPin } from "lucide-react"
 export function ContactSection() {
   const handleWhatsAppClick = () => {
     // Replace with actual WhatsApp number
-    const phoneNumber = "5511999999999"
+    const phoneNumber = "5519989246086"
     const message = "Olá! Gostaria de fazer um pedido de marmitas."
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/${19989246086}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -41,7 +41,7 @@ export function ContactSection() {
               <CardContent className="pt-6">
                 <Phone className="h-8 w-8 text-primary mx-auto mb-3" />
                 <h3 className="font-semibold text-card-foreground mb-2">Telefone</h3>
-                <p className="text-sm text-muted-foreground">(11) 99999-9999</p>
+                <p className="text-sm text-muted-foreground">(19) 98924-6086</p>
               </CardContent>
             </Card>
 
